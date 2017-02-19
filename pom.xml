@@ -12,6 +12,18 @@
   <name>fabric8::Demos::MSA:: Spring Boot Calculator</name>
   <description>A demo project for showing how to to import existing Git Hub project in to fabric8 msa</description>
 
+  <scm>
+    <connection>https://github.com/kameshsampath/simple-calculator-springboot.git</connection>
+    <developerConnection>https://github.com/kameshsampath/simple-calculator-springboot.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/kameshsampath/simple-calculator-springboot</url>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/kameshsampath/simple-calculator-springboot/issues</url>
+  </issueManagement>
+
   <properties>
     <fabric8.service.name>simple-calculator-spring</fabric8.service.name>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

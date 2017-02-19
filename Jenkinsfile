@@ -42,12 +42,13 @@ mavenNode{
       version = canaryVersion
     }
 
-    stage 'Integration Testing'
+    // FIXME
+    /* stage 'Integration Testing'
     mavenIntegrationTest {
       environment = 'Testing'
       failIfNoTests = localFailIfNoTests
       itestPattern = localItestPattern
-    }
+    }*/
 
     stage 'Rollout Staging'
     kubernetesApply(environment: envStage)
