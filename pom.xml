@@ -197,7 +197,6 @@
     </plugins>
   </build>
 
-
   <profiles>
     <profile>
       <id>kit</id>
