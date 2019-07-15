@@ -32,7 +32,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <!-- Swagger -->
     <swagger.version>1.5.9</swagger.version>
-    <springfox.version>2.5.0</springfox.version>
+    <springfox.version>2.9.2</springfox.version>
     <fabric8.service.name>simple-calculator-spring</fabric8.service.name>
     <logback.version>1.1.7</logback.version>
     <slf4j-api.version>1.7.21</slf4j-api.version>
@@ -117,6 +117,12 @@
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
       <version>20160212</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.1.1</version>
     </dependency>
 
     <!-- Swagger Dependencies -->
